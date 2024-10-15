@@ -42,5 +42,3 @@ That's great! Since you're interested in building a gesture recognition system, 
 ### 7. **Future Enhancements**
    - Add support for more complex gestures.
    - Integrate the system with other applications (e.g., controlling a robot, performing tasks on your PC).
-
-Would you like to dive deeper into any particular part of the project?
