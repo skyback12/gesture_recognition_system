@@ -4,3 +4,33 @@ tensorflow
 keras
 numpy
 matplotlib
+
+
+
+
+gesture_recognition_system/
+│
+├── data/
+│   ├── train/                # Training data (images/videos)
+│   ├── test/                 # Testing data (images/videos)
+│   └── processed/            # Pre-processed data (after cleaning)
+│
+├── models/
+│   ├── model_cnn.h5          # Trained CNN model (for custom models)
+│   └── mediapipe_model.py     # Pre-trained MediaPipe model (if using)
+│
+├── utils/
+│   ├── preprocessing.py      # Code for image pre-processing (grayscale, resize, etc.)
+│   └── dataset_loader.py     # Code to load and split dataset
+│
+├── notebooks/
+│   ├── EDA.ipynb             # Jupyter notebook for initial exploration (optional)
+│   └── training.ipynb        # Jupyter notebook for model training and testing (optional)
+│
+├── src/
+│   ├── hand_gesture_model.py # CNN or MediaPipe model implementation
+│   ├── live_detection.py     # Code for real-time detection (OpenCV + model prediction)
+│   └── train_model.py        # Code to train your gesture recognition model
+│
+├── README.md                 # Project description, how to use the system
+└── requirements.txt          # Dependencies (OpenCV, TensorFlow, MediaPipe, etc.)
